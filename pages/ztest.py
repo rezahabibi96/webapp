@@ -18,10 +18,10 @@ st.write('## Constructing Hypothesis')
 st.latex('H_{0} : \mu = \mu_{0}')
 st.latex('H_{1} : \mu \neq \mu_{0}') #\neq stands for not equal
 
-alpha = st.number_input('masukkan nilai alpha', step=0.001, min_value=0., max_value=1.)
-null_mean = st.number_input('masukkan nilai mu', step=0.001)
+alpha = st.number_input('masukkan nilai nilai alpha', step=0.001, min_value=0., max_value=1.)
+null_mean = st.number_input('masukkan nilai nilai mu', step=0.001)
 
-clicked = st.button('do the Z test !!')
+clicked = st.button('do the Z ZZ test !!')
 
 if clicked:
     alpha_z = NormalDist().inv_cdf(p=1-alpha/2)
