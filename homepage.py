@@ -1,4 +1,4 @@
 import streamlit as st
 
 
-st.title('statistical simple test app') 
+st.title('statistical simple ubah edit test app') 
